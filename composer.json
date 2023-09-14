@@ -1,0 +1,14 @@
+{
+    "name": "riponcoder/file-upload",
+    "description": "Fileupload local and database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ripon",
+            "email": "coderripon@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
