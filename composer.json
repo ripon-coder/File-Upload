@@ -13,8 +13,6 @@
        "php": "^7.0|^8.1",
         "riponcoder/fileupload": "^1.0"
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "RiponCoder\\FileUpload\\": "src/"
@@ -30,5 +28,7 @@
                 "ImageAble": "RiponCoder\\FileUpload\\ImageAbble"
             }
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
 }
