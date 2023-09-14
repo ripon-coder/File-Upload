@@ -9,12 +9,12 @@
             "email": "coderripon@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
-    "prefer-stable": true,
     "require": {
        "php": "^7.0|^8.0",
         "riponcoder/fileupload": "^1.0"
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "RiponCoder\\FileUpload\\": "src/"
