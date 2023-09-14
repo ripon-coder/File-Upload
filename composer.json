@@ -10,5 +10,21 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "RiponCoder\\FileUpload\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RiponCoder\\FileUpload\\FileUploadServiceProvide"
+            ],
+            "aliases": {
+                "FileUpload": "RiponCoder\\FileUpload\\FileUpload",
+                "ImageAble": "RiponCoder\\FileUpload\\ImageAbble"
+            }
+        }
+    }
 }
