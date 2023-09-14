@@ -10,7 +10,10 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "prefer-stable": true,
+    "require": {
+        "riponcoder/file-upload": "^1.0@dev"
+    },
     "autoload": {
         "psr-4": {
             "RiponCoder\\FileUpload\\": "src/"
