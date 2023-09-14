@@ -9,6 +9,8 @@
             "email": "coderripon@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
        "php": "^7.0|^8.0",
         "riponcoder/fileupload": "^1.0"
