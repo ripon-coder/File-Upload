@@ -11,7 +11,7 @@
     ],
     "require": {
        "php": "^7.0|^8.1",
-        "riponcoder/fileupload": "^1.0"
+        "riponcoder/file-upload": "*"
     },
     "autoload": {
         "psr-4": {
