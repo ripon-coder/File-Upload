@@ -1,4 +1,4 @@
-# Scratch Card Laravel Package
+# File Upload Laravel Package
 
 ## Installation
 ```sh
@@ -25,6 +25,7 @@ use ImageAbble
         $post->title = $request->title;
         $post->save();
         FileUpload::path('ripon/sajib')->uploadWithDb($post,$request->image);
+
         // Access For
          $post =  Post::find(3);
          return $post->imageabble;
@@ -38,6 +39,7 @@ use ImageAbble
         $post->title = $request->title;
         $post->save();
         FileUpload::path('ripon/sajib')->updateWithDb($post,$request->image);
+
         // Access For
          $post =  Post::find(3);
          return $post->imageabble;
